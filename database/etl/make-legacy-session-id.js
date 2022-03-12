@@ -3,8 +3,8 @@ const convertStringToUuid = require('uuid-by-string');
 
 log.setDefaultLevel('info');
 
-const device_identifier = '50eccbeeef2214fe';
-const planter_identifier = 'adamulanga85@gmail.com';
+const device_identifier = '3581468e31e2c74a';
+const planter_identifier = '0784589075';
 
 const sessionId = convertStringToUuid(device_identifier + planter_identifier);
 log.info(device_identifier);

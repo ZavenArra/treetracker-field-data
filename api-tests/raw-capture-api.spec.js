@@ -107,7 +107,7 @@ describe('Raw Captures', () => {
   });
 
   const request_object = new RequestObject();
-  it(`Raw capture should be successfully added`, function (done) {
+  it.only(`Raw capture should be successfully added`, function (done) {
     request(server)
       .post(`/raw-captures`)
       .send(request_object.request_object)
